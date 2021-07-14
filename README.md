@@ -22,10 +22,10 @@ This Project includes six steps of **Data Collection*, **Data Preprocessing**, *
     
   After preparing the data matrix, we shuffled the samples and considered 70% of the samples as training data set, 20% as validation data set and 10% for testing. We set aside the test data for final evaluation and used the training data to classify the desired classes and to validate the hyper parameter data set.
   * #### Classifiers:
-    *  Neural network
-    *  Linear SVM
-    *  polynomial SVM
-    *  Naïve Bayes
+    *  Neural network *(Accuracy=0.989)*
+    *  Linear SVM *(Accuracy=0.956)*
+    *  polynomial SVM *(Accuracy=0.975)*
+    *  Naïve Bayes *(Accuracy=0.649)*
 
   * #### Models' Comparison:
     According to the results of each of the calcifiers on the test dataset, the neural network performed best, followed by SVM with a small difference and finally Bayes Naïve with low accuracy.
