@@ -22,10 +22,10 @@ This Project includes six steps of **Data Collection*, **Data Preprocessing**, *
     
   After preparing the data matrix, we shuffled the samples and considered 70% of the samples as training data set, 20% as validation data set and 10% for testing. We set aside the test data for final evaluation and used the training data to classify the desired classes and to validate the hyper parameter data set.
   * #### Classifiers:
-    * #### Neural network
-    * #### Linear SVM
-    * #### polynomial SVM
-    * #### Naïve Bayes
+    *  Neural network
+    *  Linear SVM
+    *  polynomial SVM
+    *  Naïve Bayes
 
   * #### Models' Comparison:
     According to the results of each of the calcifiers on the test dataset, the neural network performed best, followed by SVM with a small difference and finally Bayes Naïve with low accuracy.
@@ -44,8 +44,8 @@ This Project includes six steps of **Data Collection*, **Data Preprocessing**, *
 * ### Clustring
   We used **Dendogram** to find and chose the optimum number of cluster with the most life time. Then, by applying the following to hierarchical algorithms, data has been divided into two clusters (male and female)
    * #### Algorithms
-      * #### Agglomerative
-      * #### K-means
+      *  Agglomerative
+      *  K-means
   
 <p align="center">
 <img src="https://user-images.githubusercontent.com/40741680/125693295-982e8ebc-613f-41f1-9edf-e6782c4e1fbc.png" width="480" height="300" align="center">
