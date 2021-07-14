@@ -9,7 +9,7 @@ This Project contains two phases of **Data Collection*, **Data Preprocessing**, 
   In this phase we collected a data set from 10 students voices reading 10 distinct scientific texts with a length of 1 min each. Students were chosen from males and females equally.
 
 * ### Data Preprocessing
-  Recorded voices are always subject to different types of noises due to background noises, microphone quality, etc. In this step we omited unwanted added signals using digital filters (FIR, IIR) and frequency domain analysis. Also, by delleting the possible silence gaps in recorded voice, we increased the quality and accuracy of the data set.
+   Recorded voices are always subject to different types of noises due to background noises, microphone quality, etc. In this step we omited unwanted added signals using digital filters (FIR, IIR) and frequency domain analysis. Also, by delleting the possible silence gaps in recorded voice, we increased the quality and accuracy of the data set.
 
 * ### Classification
     
@@ -30,25 +30,25 @@ This Project contains two phases of **Data Collection*, **Data Preprocessing**, 
   * #### Models' Comparison:
     According to the results of each of the calcifiers on the test dataset, the neural network performed best, followed by SVM with a small difference and finally Bayes Naïve with low accuracy.
     
-  
- <p align="center">
+<p align="center">
 <img src="https://user-images.githubusercontent.com/40741680/125693034-1f944c49-d303-4e2a-b30d-c1b870c12af0.png" width="480" height="300" align="center">
-   </p>
-    
-   * #### Dimensionality Reduction (PCA)
-      We used **PCA** to reduce the dimentions of 193-feature space and convert it to a smaller space in order to have a better representation of the data
+</p>
    
-   <p align="center">
-<img src="https://user-images.githubusercontent.com/40741680/125694563-0d2d3e6b-4857-43b2-9178-909a3a481e56.png" width="480" height="300" align="center">
-   </p>
+* ### Dimensionality Reduction (PCA)
+   We used **PCA** to reduce the dimentions of 193-feature space and convert it to a smaller space in order to have a better representation of the data
+<p align="center">
+<img src="https://user-images.githubusercontent.com/40741680/125696253-bba80567-968e-4230-8d3d-8b0a9b32c69d.png" width="480" height="300" align="center">
+</p>
 
 
 * ### Clustring
-   We used **Dendogram** to find and chose the optimum number of cluster with the most life time. Then, by applying the following to hierarchical algorithms, data has been divided into two clusters (male and female)
+  We used **Dendogram** to find and chose the optimum number of cluster with the most life time. Then, by applying the following to hierarchical algorithms, data has been divided into two clusters (male and female)
    * #### Algorithms
       * #### Agglomerative
       * #### K-means
-  <img src="https://user-images.githubusercontent.com/40741680/125693295-982e8ebc-613f-41f1-9edf-e6782c4e1fbc.png" width="480" height="300" align="center">
-
+  
+<p align="center">
+<img src="https://user-images.githubusercontent.com/40741680/125693295-982e8ebc-613f-41f1-9edf-e6782c4e1fbc.png" width="480" height="300" align="center">
+</p>
 
 
