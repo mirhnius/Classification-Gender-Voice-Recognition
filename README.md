@@ -6,7 +6,7 @@ Oral language is the most natural way for humans to convey information. Speech s
 This Project includes four steps of **Data Collection**, **Data Preprocessing**, **Classification**, and **Clustring**.
 
 * ### Data Collection
-  In this phase we collected a data set from 10 students voices reading 10 distinct scientific texts with a length of 1 min each. Students were chosen from males and females equally.
+  In this phase we collected a data set from 10 students voices reading 10 distinct scientific texts with a length of 1 min each. Also, students were equally chosen from males and females.
 
 * ### Data Preprocessing
    Recorded voices are always subject to different types of noises due to background noises, microphone quality, etc. In this step we omited unwanted added signals using digital filters (FIR) and frequency domain analysis. Also, by delleting the possible silence gaps in recorded voice, we increased the quality and accuracy of the data set.
